@@ -760,7 +760,6 @@ button {
 }
 
 .modal-checkbox-label {
-  display: flex;
   align-items: center;
   gap: 4px;
   font-size: 12px;
