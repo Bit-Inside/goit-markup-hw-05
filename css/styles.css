@@ -1,6 +1,7 @@
 /* #region GLOBAL */
 :root {
   --checked-bg-color: #404bbf;
+  --checked-icon-color: #f4f4fd;
 }
 
 body {
@@ -558,7 +559,7 @@ button {
 }
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--checked-bg-color);
 }
 .footer-subscribe-icon {
   fill: #ffffff;
@@ -791,7 +792,7 @@ button {
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-icon {
   background-color: var(--checked-bg-color);
   border: none;
-  fill: #ffffff;
+  fill: var(--checked-icon-color);
 }
 
 .modal-checkbox-link {
